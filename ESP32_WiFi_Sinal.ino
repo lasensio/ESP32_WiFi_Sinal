@@ -2,10 +2,7 @@
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
 #include <page.h>
-
-//Insert network credentials
-const char* ssid = "Casa-SP";
-const char* password = "*Estamos em Casa*";
+#include <credencials.h>
 
 //Create AsyncWebServer object on port 82
 AsyncWebServer server(82);
